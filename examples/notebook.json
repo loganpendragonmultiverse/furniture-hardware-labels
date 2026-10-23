@@ -1,0 +1,28 @@
+{
+  "format": "furniture-hardware-labels",
+  "version": 1,
+  "records": [
+    {
+      "project": "Oak bookcase",
+      "bag": 1,
+      "item": "Base screws and dowels",
+      "quantity": 8,
+      "order": 1,
+      "notes": "Keep the long screws toward the rear. Check the original furniture instructions.",
+      "done": false,
+      "id": "example-1",
+      "attachments": []
+    },
+    {
+      "project": "Oak bookcase",
+      "bag": 2,
+      "item": "Shelf supports",
+      "quantity": 12,
+      "order": 2,
+      "notes": "Four supports per shelf.",
+      "done": false,
+      "id": "example-2",
+      "attachments": []
+    }
+  ]
+}

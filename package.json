@@ -1,0 +1,22 @@
+{
+  "name": "furniture-hardware-labels",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Number the hardware as you take a project apart. Keep photos and notes with each bag, then print matching labels and an ordered reassembly sheet.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/build.test.mjs test/core.test.mjs",
+    "check": "node scripts/check.mjs && prettier --check .",
+    "build": "node scripts/build.mjs",
+    "test:browser": "playwright test",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "prettier": "3.9.10"
+  }
+}
